@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 300;
+	color: gray;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: 300;
+	color: gray;
+	margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+input {
+	border: 0;
+	height: 40px;
+	width: 400px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	background-color: #f0f0f0;
+/*
+	-webkit-box-shadow: 0px 0px 7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 7px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 7px rgba(50, 50, 50, 0.75);
+*/
+	font-size: 20px;
+	
+}
+
+input::placeholder {
+	color: #d9d5d5;
+	margin: 20px;
+}
+
+button {
+	height: 40px;
+	width: 70px;
+	color: #a7a7a7;
+	position: relative;
+	top: -2px;
+	background-color: #f0f0f0;
+	border: none;
+	
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #0062ff;
+	color: white;
+}
+
+.exampleLists button {
+	display: inline-block;
+	margin: 0 30px 0 30px;
+	background: none;
+	font-style: italic;
+	height: 20px;
+}
+
+.textUnderline {
+	text-decoration: underline;
+}
+
+.sampleList:hover {
+	color: #4973ff;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	margin-top: 50px;
+	padding: 0;
+}
+
+.emptyListNotice {
+	color: #dbdbdb;
+}
+
+i {
+	font-size: .35em;
+	color: #003bff;
+}
+
+i:hover {
+	cursor: pointer;
+	color: red;
+}
+
+li {
+	font-weight: 300;
+	font-size: 40px;
+	margin: 20px auto;
+	width: 70%;
+	color: gray;
+	
+}
+
+.complete {
+	text-decoration: line-through;
+}

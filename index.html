@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Just Another To Do List</title>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+
+<body>
+
+	<h1>Just Another To Do List</h1>
+	<h3>Experiment using a Map object to hold tasks (pure javascript)</h3> 
+	
+	<input id="taskInput" type="text" name="todoInput" placeholder="add a new task" spellcheck="true">
+	<button id="addBTN" onclick="handlers.getInput()">add</button>
+	<hr>
+	<div class="exampleLists">
+		<button id="listOneBTN" class="sampleList" 
+				onclick="handlers.setObj(emptySample)">List 1</button>
+		<button id="listTwoBTN" class="sampleList" 
+				onclick="handlers.setObj(listSample)">List 2</button>
+	</div>
+	<ul class="toDos">
+		
+	</ul>
+	
+	
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
