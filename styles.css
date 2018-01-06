@@ -111,6 +111,11 @@ li {
 	
 }
 
+li:hover {
+	cursor: pointer;
+	color: blue;
+}	
+
 .complete {
 	text-decoration: line-through;
 }
