@@ -119,3 +119,35 @@ li {
 .complete {
 	text-decoration: line-through;
 }
+
+ @media screen and (max-width: 600px) {
+    
+	 h1 {
+		font-size: 25px;
+	 }
+   
+	 input {
+		height: 40px;
+		width: 95%;
+		margin-bottom: 10px;
+		padding: 5px;
+		font-size: 15px;
+	 }
+	 
+	 button {
+		height: 30px;
+		width: 50px;
+		margin-bottom: 20px;
+		
+	
+	 }
+	 
+	 li {
+		font-weight: 300;
+		font-size: 20px;
+		margin: 20px auto;
+		width: 70%;
+		
+	 }
+	 
+}
